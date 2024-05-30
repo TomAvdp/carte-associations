@@ -232,7 +232,7 @@ const additionalData = [
         "Cible": "Aide aux sans-abri et aux personnes en situation d’exclusion",
         "Périmètre": "Local (Grandes villes)",
         "Actions": "Distribution de repas aux sans-abri et aide administrative et orientation",
-        "Lien": "https://programme-malin.com/"
+        "Lien": "https://www.humanitydiaspo.org/"
     },
     {
         "Nom": "Emmaüs Solidarité",
