@@ -269,7 +269,7 @@ const additionalData = [
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
-    const combinedData = [...data, ...additionalData];
+    const combinedData = [...data, ...additionalData].sort((a, b) => a.Nom.localeCompare(b.Nom));
     const select = document.getElementById('associationSelect');
     combinedData.forEach(item => {
         const option = document.createElement('option');
