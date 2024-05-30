@@ -53,7 +53,7 @@ const data = [
         "Cible": "Personnes en situation de précarité",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits de première nécessité, lutte contre le gaspillage, aide matérielle",
-        "Lien": "https://www.adnfrance.org/7"
+        "Lien": "https://www.adnfrance.org"  // URL corrigée
     }
 ];
 
@@ -185,6 +185,86 @@ const additionalData = [
         "Périmètre": "National",
         "Actions": "Conseils nutritionnels, aide alimentaire, ateliers éducatifs",
         "Lien": "https://programme-malin.com/"
+    },
+    {
+        "Nom": "La Protection Civile",
+        "Adhérents": "CCEP",
+        "Cible": "Soutien aux personnes en difficulté, y compris victimes de catastrophes et populations vulnérables",
+        "Périmètre": "National",
+        "Actions": "Distribution de colis alimentaires, soutien psychologique, et formation aux gestes de premiers secours",
+        "Lien": "https://www.protection-civile.org/"
+    },
+    {
+        "Nom": "Laurette Fugain",
+        "Adhérents": "S.C. Johnson",
+        "Cible": "Aide aux patients atteints de leucémie et à leurs familles",
+        "Périmètre": "National",
+        "Actions": "Soutien aux patients atteints de leucémie et à leurs familles, et sensibilisation au don de moelle osseuse",
+        "Lien": "https://www.laurettefugain.org/"
+    },
+    {
+        "Nom": "Le Rire médecin",
+        "Adhérents": "Playmobil Frace",
+        "Cible": "Soutien moral aux enfants hospitalisés et leurs familles",
+        "Périmètre": "National",
+        "Actions": "Soutien moral aux enfants hospitalisés à travers des spectacles de clowns",
+        "Lien": "https://www.leriremedecin.org/"
+    },
+    {
+        "Nom": "Donnons leur une chance",
+        "Adhérents": "PepsiCo",
+        "Cible": "Soutien aux jeunes en difficulté scolaire et issus de milieux défavorisés",
+        "Périmètre": "Local (Île-de-France)",
+        "Actions": "Bourses et soutien aux jeunes en difficulté scolaire, avec ateliers éducatifs et artistiques",
+        "Lien": "http://www.donnons-leur-une-chance.org/"
+    },
+    {
+        "Nom": "La Cravate solidaire",
+        "Adhérents": "General Mills",
+        "Cible": "Aide à l’insertion professionnelle des personnes en situation de précarité",
+        "Périmètre": "National",
+        "Actions": "Aide à l’insertion professionnelle par le don de vêtements et ateliers de préparation aux entretiens d'embauche",
+        "Lien": "https://lacravatesolidaire.org/"
+    },
+    {
+        "Nom": "Humanity Diaspo",
+        "Adhérents": "Innocent Drinks",
+        "Cible": "Aide aux sans-abri et aux personnes en situation d’exclusion",
+        "Périmètre": "Local (Grandes villes)",
+        "Actions": "Distribution de repas aux sans-abri et aide administrative et orientation",
+        "Lien": "https://programme-malin.com/"
+    },
+    {
+        "Nom": "Emmaüs Solidarité",
+        "Adhérents": "L'Oréal",
+        "Cible": "Soutien aux personnes sans-abri et en grande précarité",
+        "Périmètre": "National",
+        "Actions": "Hébergement et réinsertion sociale des personnes sans-abri",
+        "Lien": "https://www.emmaus-solidarite.org/"
+    },
+    {
+        "Nom": "L'Armée du salut",
+        "Adhérents": "Ferrero France",
+        "Cible": "Aide aux personnes sans-abri, en situation de pauvreté, et marginalisées",
+        "Périmètre": "National",
+        "Actions": "Distribution de repas, hébergement d'urgence, et programmes de réinsertion sociale",
+        "Lien": "https://www.armeedusalut.fr/"
+    },
+    {
+        "Nom": "La Maison des femmes",
+        "Adhérents": "S.C. Johnson",
+        "Cible": "Soutien aux femmes victimes de violences et en situation de vulnérabilité",
+        "Périmètre": "Local (Île-de-France)",
+        "Actions": "Soutien aux femmes victimes de violences, avec soins médicaux et accompagnement psychologique",
+        "Lien": "https://www.lamaisondesfemmes.fr/"
+    },
+    {
+        "Nom": "SOS Bébé",
+        "Adhérents": "Danone France",
+        "Cible": "Soutien aux femmes enceintes en difficulté et aux jeunes mères",
+        "Périmètre": "Régional",
+        "Actions": "Accueil et soutien aux femmes enceintes en difficulté, avec suivi médical et aide matérielle",
+        "Lien": "https://www.sosbebe.org/"
     }
 ];
 
