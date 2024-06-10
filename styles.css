@@ -72,3 +72,9 @@ footer {
     bottom: 0;
     font-size: 0.8rem;
 }
+.item img {
+    max-width: 100px; /* Limite la taille des logos */
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+}

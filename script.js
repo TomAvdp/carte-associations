@@ -312,9 +312,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const contentDiv = document.getElementById('content');
         contentDiv.innerHTML = '';  // Effacer le contenu précédent
         data.forEach(item => {
+            const logoPath = `${item.Nom}.jpg`;  // Générer le chemin du logo avec l'extension .jpg
             const div = document.createElement('div');
             div.classList.add('item');
             div.innerHTML = `
+                <img src="${logoPath}" alt="Logo de ${item.Nom}" onerror="this.onerror=null;this.src='default-logo.jpg';">
                 <strong>${item.Nom}</strong> - ${item["Nombre d'adhérents"] || item.Adhérents}
                 <p>${item.Cible}</p>
                 <p>${item.Périmètre}</p>
@@ -328,3 +330,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Afficher toutes les données par défaut
     resetFilter();
 });
+
