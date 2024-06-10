@@ -1,7 +1,7 @@
 const data = [
     {
         "Nom": "Restos du coeur",
-        "Nombre d'adhérents": "21 adhérents collaborant",
+        "Nombre d'adhérents": "Entreprise X, Entreprise Y",
         "Cible": "Personnes en situation de précarité, sans-abri, familles en difficulté",
         "Périmètre": "National (France)",
         "Actions": "Distribution de repas, aide à l'hébergement, insertion professionnelle, soutien scolaire",
@@ -9,7 +9,7 @@ const data = [
     },
     {
         "Nom": "Dons solidaires",
-        "Nombre d'adhérents": "5 adhérents collaborant",
+        "Nombre d'adhérents": "Entreprise X, Entreprise Y",
         "Cible": "Personnes en situation de précarité, enfants, familles",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits neufs invendus, aide matérielle",
@@ -17,7 +17,7 @@ const data = [
     },
     {
         "Nom": "Banques alimentaires",
-        "Nombre d'adhérents": "19 adhérents collaborant",
+        "Nombre d'adhérents": "Entreprise X, Entreprise Y",
         "Cible": "Personnes en situation de précarité, familles",
         "Périmètre": "National (France), réseau international",
         "Actions": "Collecte et distribution de denrées alimentaires, lutte contre le gaspillage alimentaire",
@@ -25,7 +25,7 @@ const data = [
     },
     {
         "Nom": "Association Nationale des Épiceries Solidaires",
-        "Nombre d'adhérents": "4 adhérents collaborant",
+        "Nombre d'adhérents": "Entreprise X, Entreprise Y",
         "Cible": "Personnes en situation de précarité",
         "Périmètre": "National (France)",
         "Actions": "Épiceries solidaires, accès à une alimentation de qualité à moindre coût",
@@ -33,7 +33,7 @@ const data = [
     },
     {
         "Nom": "Secours Populaire",
-        "Nombre d'adhérents": "15 adhérents collaborant",
+        "Nombre d'adhérents": "Entreprise X, Entreprise Y",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées",
         "Périmètre": "National (France), International",
         "Actions": "Aide alimentaire, aide vestimentaire, soutien scolaire, accès aux vacances, aide d'urgence",
@@ -41,7 +41,7 @@ const data = [
     },
     {
         "Nom": "Croix Rouge",
-        "Nombre d'adhérents": "9 adhérents collaborant",
+        "Nombre d'adhérents": "Entreprise X, Entreprise Y",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées, sans-abri",
         "Périmètre": "National (France), International",
         "Actions": "Secours d'urgence, aide alimentaire, formation aux premiers secours, aide à l'hébergement, soutien psychologique",
@@ -49,7 +49,7 @@ const data = [
     },
     {
         "Nom": "Agence du Don en Nature",
-        "Nombre d'adhérents": "6 adhérents collaborant",
+        "Nombre d'adhérents": "Entreprise X, Entreprise Y",
         "Cible": "Personnes en situation de précarité",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits de première nécessité, lutte contre le gaspillage, aide matérielle",
