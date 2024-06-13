@@ -9,7 +9,7 @@ const data = [
     },
     {
         "Nom": "Dons solidaires",
-        "Nombre d'adhérents": "GSK SGP, Essity France, Henkel France, Colgate-Palmolive, Carambar&Co, BIC",
+        "Nombre d'adhérents": "GSK SGP, Essity France, Henkel France, Colgate-Palmolive, Carambar&Co, BIC, Unilever",
         "Cible": "Personnes en situation de précarité, enfants, familles",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits neufs invendus, aide matérielle",
@@ -17,7 +17,7 @@ const data = [
     },
     {
         "Nom": "Banques alimentaires",
-        "Nombre d'adhérents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle",
+        "Nombre d'adhérents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever",
         "Cible": "Personnes en situation de précarité, familles",
         "Périmètre": "National (France), réseau international",
         "Actions": "Collecte et distribution de denrées alimentaires, lutte contre le gaspillage alimentaire",
@@ -33,7 +33,7 @@ const data = [
     },
     {
         "Nom": "Secours Populaire",
-        "Nombre d'adhérents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive",
+        "Nombre d'adhérents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées",
         "Périmètre": "National (France), International",
         "Actions": "Aide alimentaire, aide vestimentaire, soutien scolaire, accès aux vacances, aide d'urgence",
@@ -41,7 +41,7 @@ const data = [
     },
     {
         "Nom": "Croix Rouge",
-        "Nombre d'adhérents": "Essity",
+        "Nombre d'adhérents": "Essity, Unilever",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées, sans-abri",
         "Périmètre": "National (France), International",
         "Actions": "Secours d'urgence, aide alimentaire, formation aux premiers secours, aide à l'hébergement, soutien psychologique",
@@ -252,7 +252,7 @@ const additionalData = [
     },
     {
         "Nom": "La Maison des femmes",
-        "Adhérents": "S.C. Johnson",
+        "Adhérents": "S.C. Johnsonn Unilever",
         "Cible": "Soutien aux femmes victimes de violences et en situation de vulnérabilité",
         "Périmètre": "Local (Île-de-France)",
         "Actions": "Soutien aux femmes victimes de violences, avec soins médicaux et accompagnement psychologique",
@@ -265,6 +265,14 @@ const additionalData = [
         "Périmètre": "Régional",
         "Actions": "Accueil et soutien aux femmes enceintes en difficulté, avec suivi médical et aide matérielle",
         "Lien": "https://www.sosbebe.org/"
+    },
+    {
+        "Nom": "Magie à l'hôpital",
+        "Adhérents": "Unilever",
+        "Cible": "Soutien psychologique pour des enfants hospitalisés",
+        "Périmètre": "National",
+        "Actions": "Spectacles de magie pour les enfants hospitalisés et leurs familles",
+        "Lien": "https://www.magie-hopital.com/"
     }
 ];
 
