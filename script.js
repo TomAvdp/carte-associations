@@ -17,7 +17,7 @@ const data = [
     },
     {
         "Nom": "Banques alimentaires",
-        "Nombre d'adhérents": "Kellog France, General Mills, Carte Noire",
+        "Nombre d'adhérents": "Kellanova, General Mills, Carte Noire",
         "Cible": "Personnes en situation de précarité, familles",
         "Périmètre": "National (France), réseau international",
         "Actions": "Collecte et distribution de denrées alimentaires, lutte contre le gaspillage alimentaire",
@@ -25,7 +25,7 @@ const data = [
     },
     {
         "Nom": "Association Nationale des Épiceries Solidaires",
-        "Nombre d'adhérents": "Entreprise X, Entreprise Y",
+        "Nombre d'adhérents": "Kellanova",
         "Cible": "Personnes en situation de précarité",
         "Périmètre": "National (France)",
         "Actions": "Épiceries solidaires, accès à une alimentation de qualité à moindre coût",
@@ -41,7 +41,7 @@ const data = [
     },
     {
         "Nom": "Croix Rouge",
-        "Nombre d'adhérents": "Entreprise X, Entreprise Y",
+        "Nombre d'adhérents": "Essity",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées, sans-abri",
         "Périmètre": "National (France), International",
         "Actions": "Secours d'urgence, aide alimentaire, formation aux premiers secours, aide à l'hébergement, soutien psychologique",
@@ -148,7 +148,7 @@ const additionalData = [
     },
     {
         "Nom": "Rudy Gobert Academy",
-        "Adhérents": "Kellogg France",
+        "Adhérents": "Kellanova",
         "Cible": "Jeunes sportifs",
         "Périmètre": "National",
         "Actions": "Formation sportive, mentorat, soutien éducatif",
