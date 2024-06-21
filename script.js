@@ -378,12 +378,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const query = event.target.value.toLowerCase();
         const filteredData = combinedData.filter(item => 
             item.Nom.toLowerCase().includes(query) ||
-            (item.Adhérents && item.Adhérents.toLowerCase().includes(query)) ||
+            (item["Nombre d'adhérents"] && item["Nombre d'adhérents"].toLowerCase().includes(query)) ||
             item.Cible.toLowerCase().includes(query) ||
             item.Périmètre.toLowerCase().includes(query) ||
-            item.Actions.toLowerCase().includes(query)
+            item.Actions.toLowerCase().includes(query) ||
+            (item.Adhérents && item.Adhérents.toLowerCase().includes(query))
         );
-        displayData(filteredData);
+        displayData(filteredData, query);
     });
 
     document.getElementById('associationSelect').addEventListener('change', filterByAssociation);
@@ -404,16 +405,21 @@ document.addEventListener('DOMContentLoaded', () => {
         displayData(combinedData);
     }
 
-    function displayData(data) {
+    function displayData(data, query = '') {
         const contentDiv = document.getElementById('content');
         contentDiv.innerHTML = '';  // Effacer le contenu précédent
         data.forEach(item => {
             const logoPath = `${item.Nom}.jpg`;  // Générer le chemin du logo avec l'extension .jpg
             const div = document.createElement('div');
             div.classList.add('item');
+            
+            // Mettre en gras le nom de l'entreprise si elle correspond à la recherche
+            const nameClass = (item["Nombre d'adhérents"] && item["Nombre d'adhérents"].toLowerCase().includes(query)) || 
+                              (item.Adhérents && item.Adhérents.toLowerCase().includes(query)) ? 'highlight' : '';
+            
             div.innerHTML = `
                 <img src="${logoPath}" alt="Logo de ${item.Nom}" onerror="this.onerror=null;this.src='default-logo.jpg';">
-                <strong>${item.Nom}</strong> - ${item["Nombre d'adhérents"] || item.Adhérents}
+                <strong class="${nameClass}">${item.Nom}</strong> - ${item["Nombre d'adhérents"] || item.Adhérents}
                 <p>${item.Cible}</p>
                 <p>${item.Périmètre}</p>
                 <p>${item.Actions}</p>
@@ -426,4 +432,3 @@ document.addEventListener('DOMContentLoaded', () => {
     // Afficher toutes les données par défaut
     resetFilter();
 });
-
