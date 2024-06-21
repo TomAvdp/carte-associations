@@ -252,7 +252,7 @@ const additionalData = [
     },
     {
         "Nom": "La Maison des femmes",
-        "Adhérents": "S.C. Johnsonn Unilever",
+        "Adhérents": "S.C. Johnsonn, Unilever",
         "Cible": "Soutien aux femmes victimes de violences et en situation de vulnérabilité",
         "Périmètre": "Local (Île-de-France)",
         "Actions": "Soutien aux femmes victimes de violences, avec soins médicaux et accompagnement psychologique",
