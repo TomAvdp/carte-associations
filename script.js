@@ -1,7 +1,7 @@
 const data = [
     {
         "Nom": "Restos du coeur",
-        "Nombre d'adhérents": "Materne France, SOLINEST, PepsiCo, Lactalis, Nestlé France, Thai Union, Pernod Ricard, Coca-Cola Europacific Partners, d'Aucy, L'Oréal, Labeyrie Fine Foods, Cofigeo, Bel France, Mars INC, Galliance Elabores, GB Foods, Panzani, Bonduelle, Yoplait, Ferrero France, Danone, Carambar&Co",
+        "Nombre d'adhérents": "Materne France, SOLINEST, PepsiCo, Lactalis, Nestlé France, Thai Union, Pernod Ricard, Coca-Cola Europacific Partners, d'Aucy, L'Oréal, Labeyrie Fine Foods, Cofigeo, Bel France, Mars INC, Galliance Elabores, GB Foods, Panzani, Bonduelle, Yoplait, Ferrero France, Danone, Carambar&Co, McCain, Fleury Michon, McCormick France, Herta France",
         "Cible": "Personnes en situation de précarité, sans-abri, familles en difficulté",
         "Périmètre": "National (France)",
         "Actions": "Distribution de repas, aide à l'hébergement, insertion professionnelle, soutien scolaire",
@@ -9,7 +9,7 @@ const data = [
     },
     {
         "Nom": "Dons solidaires",
-        "Nombre d'adhérents": "GSK SGP, Essity France, Henkel France, Colgate-Palmolive, Carambar&Co, BIC, Unilever",
+        "Nombre d'adhérents": "GSK SGP, Essity France, Henkel France, Colgate-Palmolive, Carambar&Co, BIC, Unilever, L'Oreal, Pilot Pen France, Kenvue, Kimberly Clark",
         "Cible": "Personnes en situation de précarité, enfants, familles",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits neufs invendus, aide matérielle",
@@ -17,7 +17,7 @@ const data = [
     },
     {
         "Nom": "Banques alimentaires",
-        "Nombre d'adhérents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever",
+        "Nombre d'adhérents": "Kellanova, General Mills, Carte Noire, Saint Louis Sucre, Carambar&Co, Bonduelle, Unilever, Cofigeo, McCain, Sofidel, Pepsico, Fleury Michon, Solinest, Dr Oetker France, McCormick France, Herta France",
         "Cible": "Personnes en situation de précarité, familles",
         "Périmètre": "National (France), réseau international",
         "Actions": "Collecte et distribution de denrées alimentaires, lutte contre le gaspillage alimentaire",
@@ -25,7 +25,7 @@ const data = [
     },
     {
         "Nom": "Association Nationale des Épiceries Solidaires",
-        "Nombre d'adhérents": "Kellanova",
+        "Nombre d'adhérents": "Kellanova, PepsiCo",
         "Cible": "Personnes en situation de précarité",
         "Périmètre": "National (France)",
         "Actions": "Épiceries solidaires, accès à une alimentation de qualité à moindre coût",
@@ -33,7 +33,7 @@ const data = [
     },
     {
         "Nom": "Secours Populaire",
-        "Nombre d'adhérents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever",
+        "Nombre d'adhérents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, Pepsico, McCormick France, Herta France",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées",
         "Périmètre": "National (France), International",
         "Actions": "Aide alimentaire, aide vestimentaire, soutien scolaire, accès aux vacances, aide d'urgence",
@@ -49,7 +49,7 @@ const data = [
     },
     {
         "Nom": "Agence du Don en Nature",
-        "Nombre d'adhérents": "Playmobil France, S.C. Johnson, Colgate-Palmolive",
+        "Nombre d'adhérents": "Playmobil France, S.C. Johnson, Colgate-Palmolive, L'Oréal, Essity, Pilot Pen France",
         "Cible": "Personnes en situation de précarité",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits de première nécessité, lutte contre le gaspillage, aide matérielle",
@@ -68,7 +68,7 @@ const additionalData = [
     },
     {
         "Nom": "Association ICI Pass",
-        "Adhérents": "Bel France",
+        "Adhérents": "Bel France, McCormick France",
         "Cible": "Enfants et adolescents",
         "Périmètre": "Local (principalement en région Île-de-France)",
         "Actions": "Soutien scolaire, activités culturelles et sportives, accompagnement social",
@@ -100,7 +100,7 @@ const additionalData = [
     },
     {
         "Nom": "COP1",
-        "Adhérents": "Innocent Drinks, GB Foods",
+        "Adhérents": "Innocent Drinks, GB Foods, Cofigeo",
         "Cible": "Étudiants en difficulté",
         "Périmètre": "National",
         "Actions": "Distribution de colis alimentaires, aide financière, accompagnement psychologique",
@@ -204,7 +204,7 @@ const additionalData = [
     },
     {
         "Nom": "Le Rire médecin",
-        "Adhérents": "Playmobil Frace",
+        "Adhérents": "Playmobil France",
         "Cible": "Soutien moral aux enfants hospitalisés et leurs familles",
         "Périmètre": "National",
         "Actions": "Soutien moral aux enfants hospitalisés à travers des spectacles de clowns",
@@ -273,6 +273,94 @@ const additionalData = [
         "Périmètre": "National",
         "Actions": "Spectacles de magie pour les enfants hospitalisés et leurs familles",
         "Lien": "https://www.magie-hopital.com/"
+    },
+    {
+        "Nom": "Fondation Ronald McDonald",
+        "Adhérents": "Essity",
+        "Cible": "Accompagnement des enfants et de leurs parents",
+        "Périmètre": "National",
+        "Actions": "Maisons regroupants les parents et leurs enfants hospitalisés afin d'apporter un soutien affectif dans le parcours de guérison",
+        "Lien": "https://fondation-ronald-mcdonald.fr/?&gad_source=1&gclid=Cj0KCQjw4MSzBhC8ARIsAPFOuyV0fGcbWEQ4YCCD2tXSBfx8netc00nitSpT6J9D9X-rq5wTICVFG5gaAq2zEALw_wcB&gclsrc=aw.ds"
+    },
+    {
+        "Nom": "The SeaCleaners",
+        "Adhérents": "Pilot Pen France",
+        "Cible": "Protection de l'environnement",
+        "Périmètre": "National",
+        "Actions": "Actions de dépollution des océans, production d'études sur la pollution, actions de sensibilisation grand public",
+        "Lien": "https://www.theseacleaners.org/fr/accueil/"
+    },
+    {
+        "Nom": "Semaine de l'écriture",
+        "Adhérents": "Pilot Pen France",
+        "Cible": "Enfants, adolescents et adultes",
+        "Périmètre": "National",
+        "Actions": "Évènement national visant à promouvoir la pratique de l'écriture manuscrite et de ses bienfaits",
+        "Lien": "https://www.semainedelecriture.fr/"
+    },
+    {
+        "Nom": "Bonheur des Mômes",
+        "Adhérents": "Pilot Pen France",
+        "Cible": "Festival destiné aux enfants",
+        "Périmètre": "Haute-Savoie",
+        "Actions": "Festival destiné aux enfants, regroupant des spectacles, ateliers et animations à destination du jeune public",
+        "Lien": "https://www.aubonheurdesmomes.com/"
+    },
+    {
+        "Nom": "Les Bricos du Coeur",
+        "Adhérents": "McCain",
+        "Cible": "Associations, Fondations, EPHAD...",
+        "Périmètre": "National et international (10 pays)",
+        "Actions": "L'association a pour vocation d’ « aider les gens qui aident les gens » en améliorant l’environnement de travail ou de vie des structures sociales",
+        "Lien": "https://bricosducoeur.org/about"
+    },
+    {
+        "Nom": "Lazare",
+        "Adhérents": "McCain",
+        "Cible": "Personnes Sans Abris et jeunes actifs",
+        "Périmètre": "National",
+        "Actions": "Proposent des colocations pour aider des personnes sans abris et des jeunes actifs",
+        "Lien": "https://www.lazare.eu/"
+    },
+    {
+        "Nom": "Récolte&Nous",
+        "Adhérents": "McCain",
+        "Cible": "Acteurs locaux de l'économie circulaire et agriculteurs",
+        "Périmètre": "Nord (59)",
+        "Actions": "Développement d'un réseau de professionnels et d'agriculteurs dans le but de développer l'économie circulaire",
+        "Lien": "https://recoltesetnous.fr/"
+    },
+    {
+        "Nom": "Les petites soeurs des pauvres",
+        "Adhérents": "Sofidel",
+        "Cible": "Personnes âgées",
+        "Périmètre": "National",
+        "Actions": "Renforcement du lien social pour les personnes âgées en situation de pauvreté",
+        "Lien": "https://petitessoeursdespauvres.org/"
+    },
+    {
+        "Nom": "Association ELA",
+        "Adhérents": "Solinest",
+        "Cible": "Personnes touchées par la leucodystrophie",
+        "Périmètre": "National",
+        "Actions": "Aide et écoute pour les personnes touchées par la leucodystrophie.",
+        "Lien": "https://ela-asso.com/"
+    },
+    {
+        "Nom": "SOS Villages d'Enfants",
+        "Adhérents": "Dr Oetker France",
+        "Cible": "Enfants en situation de détresse",
+        "Périmètre": "National et International",
+        "Actions": "Prise en charge de fratries pour protéger les enfants en situation de détresse et préserver les liens familiaux.",
+        "Lien": "https://www.sosve.org/"
+    },
+    {
+        "Nom": "Institut Saint-Joseph",
+        "Adhérents": "Dr Oetker France",
+        "Cible": "Enfants et adolescents en difficultés",
+        "Périmètre": "Strasbourg",
+        "Actions": "Accueil de jeunes dans des Maisons d'enfants à caractère social (MECS) pour leur permettre de s'épanouir sans difficultés sociales et familiales",
+        "Lien": "https://www.glaubitz.fr/etablissements-sociaux-medico-sociaux/institution-saint-joseph-strasbourg/"
     }
 ];
 
