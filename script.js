@@ -9,7 +9,7 @@ const data = [
     },
     {
         "Nom": "Dons solidaires",
-        "Nombre d'adhérents": "GSK SGP, Essity France, Henkel France, Colgate-Palmolive, Carambar&Co, BIC, Unilever, L'Oreal, Pilot Pen France, Kenvue, Kimberly Clark",
+        "Nombre d'adhérents": "GSK SGP, Essity France, Henkel France, Colgate-Palmolive, Carambar&Co, BIC, Unilever, L'Oréal, Pilot Pen France, Kenvue, Kimberly Clark",
         "Cible": "Personnes en situation de précarité, enfants, familles",
         "Périmètre": "National (France)",
         "Actions": "Redistribution de produits neufs invendus, aide matérielle",
