@@ -33,7 +33,7 @@ const data = [
     },
     {
         "Nom": "Secours Populaire",
-        "Nombre d'adhérents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, Pepsico, McCormick France, Herta France",
+        "Nombre d'adhérents": "Mutti, Suntory Beverage & Food France, Colgate-Palmolive, Unilever, Cofigeo, Sofidel, Kimberly Clark, Pepsico, McCormick France, Herta France, Petit Navire",
         "Cible": "Personnes en situation de précarité, enfants, familles, personnes âgées",
         "Périmètre": "National (France), International",
         "Actions": "Aide alimentaire, aide vestimentaire, soutien scolaire, accès aux vacances, aide d'urgence",
