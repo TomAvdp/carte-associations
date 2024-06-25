@@ -362,14 +362,6 @@ const additionalData = [
         "Actions": "Accueil de jeunes dans des Maisons d'enfants à caractère social (MECS) pour leur permettre de s'épanouir sans difficultés sociales et familiales",
         "Lien": "https://www.glaubitz.fr/etablissements-sociaux-medico-sociaux/institution-saint-joseph-strasbourg/"
     },
-    {
-        "Nom": "ILEC",
-        "Adhérents": "TOUS",
-        "Cible": "Enfants et adolescents en difficultés",
-        "Périmètre": "Strasbourg",
-        "Actions": "Accueil de jeunes dans des Maisons d'enfants à caractère social (MECS) pour leur permettre de s'épanouir sans difficultés sociales et familiales",
-        "Lien": "https://www.glaubitz.fr/etablissements-sociaux-medico-sociaux/institution-saint-joseph-strasbourg/"
-    }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
